@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/images/favicon.ico">
+
+    <title>User email has been verified!</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/styles/email-verified.css">
+  </head>
+  <body>
+    <div class="center">
+      <p class="text-center">Hey {{.FullName}}! We are successfully confirmed your email!</p>
+      <p class="text-center">Now you can try to <a href="/">login</a> into your account.</p>
+      <p class="text-center"> You will be redirected to the login page in 10 seconds...</p>
+    </div>
+    <p class="footer text-muted">Copyright &copy; 2018 Noosphere LLC. All rights reserved.</p>
+    <script src="/static/scripts/redirect-to-login-page.js"></script>
+  </body>
+</html>

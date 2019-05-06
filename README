@@ -1,0 +1,5 @@
+This branch isn't support manipulations with user's balance. This branch
+isn't support operations with currency and cryptocurrency.
+
+This version of the project develops as a service. It's mean that 
+client will use independently our blockchain platform for his needs.

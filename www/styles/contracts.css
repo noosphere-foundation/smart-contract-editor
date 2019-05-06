@@ -1,0 +1,34 @@
+.footer {
+  bottom: 2px;
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+
+.mbtn {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer/hand icon */
+  width:100%;
+}
+
+/* Add a background color on hover */
+.mbtn-group button:hover {
+    background-color: #3e8e41;
+}
+
+#my-smart-contracts-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myMarker {
+  position: absolute;
+  /* background: rgba(100,200,100,0.5); */
+  background: rgba(255,0,0,0.5);
+  z-index: 20;
+}
